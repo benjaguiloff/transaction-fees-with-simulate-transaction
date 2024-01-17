@@ -84,3 +84,5 @@ In **terminal 2**, run:
 ```
 yarn ts-node scripts/transaction_fees/simulateTransaction.ts
 ```
+
+This script simulates a transaction that contains a "swap_exact_tokens_for_tokens". This can be changed or extended if needed to match the needed operations of the transaction being simulated.
