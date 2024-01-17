@@ -71,7 +71,11 @@ This will serve:
 - Replace the `contractId` const with the address found in `.soroban/router_id`.
 - Replace the `path` property of the `args` const with any of the paths shown in **terminal 2** after deploying the tokens.
 - Replace the `publicKey` property of the `args` const with the address found in `.soroban/token_admin_address`.
-- Replace the `sourceSecretKey` const with the one found by running ```soroban config identity show token-admin``` in **terminal 2**.
+- Replace the `sourceSecretKey` const with the one found by running the following command in **terminal 2**.
+  
+  ```
+  soroban config identity show token-admin
+  ```
 
 ### 5. Run the `simulateTransaction` script
 
