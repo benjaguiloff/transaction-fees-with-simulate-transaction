@@ -35,9 +35,6 @@ yarn
 
 In the same terminal mentioned before, run:
 
->[!Note]
->Accepted values are: `standalone | testnet | futurenet`
-
 ```
 
     bash scripts/populate_network.sh standalone
